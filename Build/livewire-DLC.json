@@ -1,0 +1,15 @@
+{
+     "TableGradient" : {
+          "Status" : true,
+          "GradientOne" : "ffff33",
+          "GradientTwo" : "de1fab"
+     },
+
+     "TitleSpinner" : {
+          "Active" : true,
+          "Position" : "back",
+          "Frames" : [
+               "A", "As", "Ast", "Astr", "Astro", "Astro C", "Astro C2", "Astro C", "Astro ", "Astro", "Astr", "Ast", "As", "A"
+          ]
+     }
+}
